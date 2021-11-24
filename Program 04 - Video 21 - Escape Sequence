@@ -1,0 +1,46 @@
+#include<iostream>
+using namespace std;
+int main(){
+	// Escape Sequence Program
+	// Using Following Escape Sequences
+	cout<<"\n------------------------";
+	cout<<"\nWELCOME TO SOLAR SYSTEM";
+	cout<<"\n------------------------";
+	
+	//01- Beep \a
+	cout<<"\a";
+	
+	// 02 - New line \n 
+	cout<<"\n\n Solar System \nhas one star and 8 planets";
+	cout<<"\nPluto is a dwarf planet";
+	
+	//03 - Tab \t
+	cout<<"\n 1st Planet : \t Mercury";	
+	cout<<"\n 2nd Planet : \t Venus";	
+	cout<<"\n 3rd Planet : \t Earth";	
+	cout<<"\n 4th Planet : \t Mars";	
+	cout<<"\n 5th Planet : \t Jupiter";	
+	cout<<"\n 6th Planet : \t Saturn"	;
+	cout<<"\n 7th Planet : \t Uranus"	;
+	cout<<"\n 8th Planet : \t Neptune";	
+	
+	//04 - Single Quotes
+	cout<<"\nStar of solar system is \'Sun\'";
+	
+	//05 - Double Quotes
+	cout<<"\nOur planet Earth has one moon and \" Neil Armstrong \" is the first person to walk on the Moon";
+	
+	// 06 - Question Mark \?
+	cout<<"\nIn which galaxy we live \? The Milky Way";
+	
+	// 07 - Backspace \b
+	cout<<"\n Good\b News\n";
+	
+	// 08 - Backslash 
+	cout<<"\\b is used to remove the one character where it is placed";
+	
+	
+	
+	return 0;
+	
+}
