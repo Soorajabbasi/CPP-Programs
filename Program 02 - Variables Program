@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int main(){
+	// Student Bio Data Program
+	//Name,age,gender, address,precentage
+	
+	// Varaible Declaration
+	char name[20]="Ali Ahmed";
+	int age=22;
+	float per=87.22;
+	char gender='M';
+	char address[100]="House # 06/3 Saddar Karachi";
+	
+	char _class,AGE,age01,age;
+	
+	cout<<"Student Bio Data"<<endl;
+	cout<<"Name 	:";cout<<name<<endl;
+	cout<<"Age 		:"<<age<<endl;
+	cout<<"Per 		:"<<per<<endl;
+	cout<<"Gender 	:"<<gender<<endl;
+	cout<<"Address 	:"<<address<<endl;
+	
+	return 0;
+	
+}
