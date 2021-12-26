@@ -1,0 +1,49 @@
+#include<iostream>
+#include<conio.h>
+//#include<cstdio>
+using namespace std;
+int main()
+{
+	// Output in C++
+	//Cout statement 
+	//Puts() function
+	//Putc() function
+	//printf()function
+	
+	cout<<"Learn about earth";cout<<endl;
+	puts("Earth is thrid planet of Solar System"); //\n
+	printf("30 percent of earth surface is land and 70 percent is water");
+	
+	//Input in C++
+	//Cin Statements
+	//Getch() function
+	//Getche() function 
+	//Getchar() function
+	//Scanf() function 
+	//Gets() function 
+	//Getc() function
+	char name[30];
+	char q1,q2,q3,q4[20];
+//	cout<<"\n\n\n\nTake a short test.";
+	cout<<"\n Enter your name";
+	cin>>name;
+	cout<<"\n\n Welcome "<<name;
+//	cout<<"\n Q1: How many planets in solar system";
+//	q1=getch();  // it takes single char form user screen
+//	cout<<"\n Ans"<<q1;
+//	cout<<"\n Q2: How many moons does Earth have \?";
+//	q2=getche(); // conio.h
+//	cout<<"\n Ans : "<<q2;
+//	cout<<"\n Q3: How many stars in solar system \?";
+//	q3=getchar();
+//	cout<<"\n Ans : "<<q3;
+//	cout<<"\n Q4: Which planet is solar system has life \?";
+//	scanf("%s",&q4);
+//	cout<<"\n Ans : "<<q4;
+//	cout<<"\n Thank you";
+//	getch();
+	
+	 
+		
+	return 0;
+}
