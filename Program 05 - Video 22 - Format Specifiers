@@ -1,0 +1,19 @@
+#include<iostream>
+#include <cstdio>
+using namespace std;
+int main()
+{
+	//printing values using format specifer
+	int planets=8; // %d
+	float dis_from_sun=149.6; // %f
+	char g_planet[20]="Green Planet"; // %s  %c
+	double pi=3.1415926535; // %e
+	
+	printf("Total Planets are %d",planets);
+	printf("\n Earth is %.2f km away from sun",dis_from_sun);
+	printf("\n Earth is also known as %s ",g_planet);
+	printf ("\n PI with ten floating points %e",pi);
+	
+	
+	return 0;
+}
